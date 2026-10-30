@@ -54,3 +54,84 @@
 // scores[0] = 25;
 
 // console.log(scores); 
+
+// Foreach loop example
+// const fruits = ["apple", "banana", "orange"];
+
+// console.log(fruits);
+
+// fruits.forEach(
+//     (x) => {
+//         console.log(x); 
+//     }
+// );
+
+// const newFruits = fruits.map(
+//     (x) => {
+//         return x + "s";
+//     }
+// );
+
+// console.log(newFruits); 
+
+// const numbers = [1, 2, 2, 2, 3, 3, 3, 4, 4, 5];
+
+// const evenNumbers = numbers.filter(
+//     (x) => {
+//         return x === 2 || x === 3;
+//     }
+// );
+
+// console.log(evenNumbers);
+
+// Object manipulation example
+const person = {
+    name: "John",
+    age: 30,
+    phone: "123-456-7890",
+    email: "john@gmail.com"
+};
+
+person.age = 20;
+person.address = "123 Main St";
+
+console.log(person);
+
+// console.log(person.name);
+// console.log(person.age);
+// console.log(person.phone);
+// console.log(person.email);
+
+// console.log(person["name"]);
+// console.log(person["age"]);
+// console.log(person["phone"]);
+// console.log(person["email"]);
+
+// const persons = [
+//     {
+//         name: "John",
+//         age: 30,
+//         phone: "123-456-7890",
+//         email: "john@gmail.com"
+//     },
+//     {
+//         name: "Jane",
+//         age: 25,
+//         phone: "987-654-3210",
+//         email: "jane@gmail.com"
+//     },
+//     {
+//         name: "Bob",
+//         age: 35,
+//         phone: "555-555-5555",
+//         email: "bob@gmail.com" 
+//     }
+// ];
+
+// console.log(persons[1].name);
+
+// persons.forEach(
+//     (person) => {
+//         console.log(person);
+//     }
+// );
